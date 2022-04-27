@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-27T09:52:15 SGT" name="Default suite" finished-at="2022-04-27T09:53:31 SGT" duration-ms="76389">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qa.testrunners.TestRunner@54a7079e]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-04-27T09:52:15 SGT" name="Default test" finished-at="2022-04-27T09:53:31 SGT" duration-ms="76389">
+      <class name="com.qa.testrunners.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.qa.testrunners.TestRunner@54a7079e]" started-at="2022-04-27T09:52:15 SGT" name="setUpClass" finished-at="2022-04-27T09:52:16 SGT" duration-ms="945" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@37af24cb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qa.testrunners.TestRunner@54a7079e]" started-at="2022-04-27T09:52:16 SGT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-27T09:52:30 SGT" duration-ms="14649" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate search an item in google application"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Validate amazon web application for its functonality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qa.testrunners.TestRunner@54a7079e]" started-at="2022-04-27T09:52:30 SGT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-27T09:52:43 SGT" duration-ms="12984" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate search an item in google application"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Validate amazon web application for its functonality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qa.testrunners.TestRunner@54a7079e]" started-at="2022-04-27T09:52:43 SGT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-27T09:52:57 SGT" duration-ms="14098" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate search an item in google application"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Validate amazon web application for its functonality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qa.testrunners.TestRunner@54a7079e]" started-at="2022-04-27T09:52:57 SGT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-27T09:53:11 SGT" duration-ms="13954" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate search an item in google application"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Validate amazon web application for its functonality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qa.testrunners.TestRunner@54a7079e]" started-at="2022-04-27T09:53:11 SGT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-27T09:53:27 SGT" duration-ms="15515" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate search an item in google application"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Validate amazon web application for its functonality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.qa.testrunners.TestRunner@54a7079e]" started-at="2022-04-27T09:53:27 SGT" name="tearDownClass" finished-at="2022-04-27T09:53:31 SGT" duration-ms="4167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.qa.testrunners.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
